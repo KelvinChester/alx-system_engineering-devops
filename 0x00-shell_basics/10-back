@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd /var
+current_dir=$(pwd) cd - echo "Previous directory: $current_dir"
